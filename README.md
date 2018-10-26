@@ -44,8 +44,11 @@ preencha usuario e senha criados no comando "python manage.py createsuperuser"
 * Endereço da API:
   /api/v1
   
-  
+-----
+
 * Endpoint e Schema:
+
+
 aovivo:
 (list_endpoint: /api/v1/aovivo/)
 (schema: /api/v1/aovivo/schema/)
