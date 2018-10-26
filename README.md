@@ -46,30 +46,31 @@ preencha usuario e senha criados no comando "python manage.py createsuperuser"
   
   
 * Endpoint e Schema:
-    "aovivo": {
-        "list_endpoint": "/api/v1/aovivo/",
-        "schema": "/api/v1/aovivo/schema/"
-    },
-    "categoria": {
-        "list_endpoint": "/api/v1/categoria/",
-        "schema": "/api/v1/categoria/schema/"
-    },
-    "programa": {
-        "list_endpoint": "/api/v1/programa/",
-        "schema": "/api/v1/programa/schema/"
-    },
-    "programa_completo": {
-        "list_endpoint": "/api/v1/programa_completo/",
-        "schema": "/api/v1/programa_completo/schema/"
-    },
-    "programacao": {
-        "list_endpoint": "/api/v1/programacao/",
-        "schema": "/api/v1/programacao/schema/"
-    },
-    "radio": {
-        "list_endpoint": "/api/v1/radio/",
-        "schema": "/api/v1/radio/schema/"
-    }
+aovivo:
+(list_endpoint: /api/v1/aovivo/)
+(schema: /api/v1/aovivo/schema/)
+    
+categoria:
+(list_endpoint: /api/v1/categoria/)
+(schema: /api/v1/categoria/schema/)
+
+programa:
+(list_endpoint: /api/v1/programa/)
+(schema: /api/v1/programa/schema/)
+
+programa_completo:
+(list_endpoint: /api/v1/programa_completo/)
+(schema: /api/v1/programa_completo/schema/)
+
+programacao:
+(list_endpoint: /api/v1/programacao/)
+(schema: /api/v1/programacao/schema/)
+
+radio:
+(list_endpoint: /api/v1/radio/)
+(schema: /api/v1/radio/schema/)
+    
+
 
 * Melhorias futuras:
 Melhorar a forma de teste com horarios dinamicos.
